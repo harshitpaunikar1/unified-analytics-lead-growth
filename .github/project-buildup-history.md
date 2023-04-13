@@ -32,3 +32,7 @@
 
 - Task summary: This was the middle stretch where the project started feeling real. I kept going and tried to build the base page structure or component skeleton, then cleaned up whatever looked confusing or weak from the earlier days. By now I had enough structure to keep going without staring at the screen too long, which honestly helped a lot. This kind of work is mostly small decisions stacked together, even if it does not look dramatic from outside.
 - Deliverable: Ended the day with initial UI structure in hand, plus a few side notes on what still needed fixing later. There were still a couple of loose parts, but nothing serious enough to block the next step.
+## 2023-04-13 - Day 8: Styling
+
+- Task summary: This was the middle stretch where the project started feeling real. I kept going and tried to apply layout, spacing, color, and typography until the project reads clearly, then cleaned up whatever looked confusing or weak from the earlier days. Once the base made some sense, I could finally move a bit faster and stop second guessing every tiny decision. I was also trying to keep the idea grounded so it did not drift into random features for no reason.
+- Deliverable: Ended the day with usable UI in hand, plus a few side notes on what still needed fixing later. It was not super polished, just stable enough that I felt okay moving forward.
