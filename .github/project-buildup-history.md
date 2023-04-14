@@ -48,3 +48,7 @@
 
 - Task summary: Late-night fix: re-ran the plots with better axis labels and a more readable color palette.
 - Deliverable: Cleaner than this morning's version.
+## 2023-04-14 - Day 9: Interactions
+
+- Task summary: Closer to the end, I was mostly tightening things up instead of inventing new scope. The job for the day was to add the minimum JavaScript interactions needed to make the flow understandable so the final result looked a bit more complete. The middle part always takes longer than it should, mostly becuase one fix usually reveals two more things to clean up. A good chunk of the day went into making the flow feel believable from a user point of view.
+- Deliverable: Ended the day with working interactions in hand, plus a few side notes on what still needed fixing later. I also left myself a few rough reminders for the next day so I would not have to rediscover the same context again.
