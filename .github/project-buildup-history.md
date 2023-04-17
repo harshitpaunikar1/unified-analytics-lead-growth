@@ -56,3 +56,7 @@
 
 - Task summary: Spent an hour on Sunday afternoon revisiting the config. Found a value that was set wrong from an earlier experiment. Fixed and committed.
 - Deliverable: Minor but worth doing.
+## 2023-04-17 - Day 10: Artifacts
+
+- Task summary: Closer to the end, I was mostly tightening things up instead of inventing new scope. The job for the day was to create or organize diagrams, screenshots, and supporting visuals so the final result looked a bit more complete. Toward the end I mostly kept trimming weird bits, fixing wording, and tying the loose parts together. This kind of work is mostly small decisions stacked together, even if it does not look dramatic from outside.
+- Deliverable: Ended the day with support visuals in hand, plus a few side notes on what still needed fixing later. There were still a couple of loose parts, but nothing serious enough to block the next step.
