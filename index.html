@@ -147,7 +147,7 @@
       <p class="thesis">A business fails to scale not because it lacks data, but because it possesses competing, fractured truths. When the Marketing team’s HubSpot dashboard claims seventy new pipeline leads and the Finance team’s Stripe extract recognizes twenty paying accounts, the resulting gap breeds distrust. Bringing growth metrics into a governed warehouse is an exercise in enforcing grammatical discipline.</p>
     </header>
 
-    <p>Raw data is meaningless. SaaS applications (Salesforce, Marketo, Amplitude) generate endless logs of user state transitions, but these tools do not natively speak to one another. When an analyst downloads a CSV from an email tool and attempts an ad-hoc VLOOKUP against a billing export, they are not performing analytics—they are performing manual, error-prone data duct-taping.</p>
+    <p>Raw data is meaningless. SaaS applications (Salesforce, Marketo, Amplitude) generate endless logs of user state transitions, but these tools do not natively speak to one another. When an analyst downloads a CSV from an email tool and attempts an ad-hoc VLOOKUP against a billing export, they are not performing analytics-they are performing manual, error-prone data duct-taping.</p>
 
     <p>A mature growth analytics function requires structural stability. It abandons "dashboard-first" thinking, where charts are bolted directly to opaque API endpoints. Instead, it builds a massive, central data funnel: extracting the chaotic, unstructured source data, rigorously modeling it into a resilient dimensional warehouse, and only then allowing BI tools to consume the agreed-upon truth.</p>
 
@@ -243,12 +243,12 @@
           </defs>
         </svg>
       </div>
-      <figcaption>Fig 1. — The Dimensional Funnel. Chaotic and overlapping data from CRM, billing, and web-analytics APIs are extracted entirely into the warehouse staging tier. Complex SQL transformations shape this raw data into a strictly governed Star Schema—a central Fact table logging measurable events (clicks, buys), surrounded by Dimension tables holding descriptive attributes (user details, campaign names). The presentation layers fan out from this single source of truth.</figcaption>
+      <figcaption>Fig 1. - The Dimensional Funnel. Chaotic and overlapping data from CRM, billing, and web-analytics APIs are extracted entirely into the warehouse staging tier. Complex SQL transformations shape this raw data into a strictly governed Star Schema-a central Fact table logging measurable events (clicks, buys), surrounded by Dimension tables holding descriptive attributes (user details, campaign names). The presentation layers fan out from this single source of truth.</figcaption>
     </div>
 
     <h2>[CONSTRAINT_02] The Dimensional Model</h2>
 
-    <p>Transformation is the act of imposing business logic onto raw code. We utilize tools like dbt (data build tool) to write SQL models that normalize the chaos into a structured "Star Schema"—a dimensional modeling technique consisting of Fact and Dimension tables.</p>
+    <p>Transformation is the act of imposing business logic onto raw code. We utilize tools like dbt (data build tool) to write SQL models that normalize the chaos into a structured "Star Schema"-a dimensional modeling technique consisting of Fact and Dimension tables.</p>
 
     <div class="definition-block">
       <code>MODEL :: FACT_GROWTH_EVENTS</code>
@@ -290,7 +290,7 @@
       </tbody>
     </table>
 
-    <p>The resulting architecture serves as more than a reporting engine. With historical conversion paths modeled into clean Fact tables, the data science layer can run lead-scoring backtests—quantifying exactly which campaign dimensions led to retention versus churn—and feed those explicit scores back into the warehouse. When analytics are fundamentally unified in the warehouse layer, growth ceases to be an argument over spreadsheet mechanics and becomes an argument about the business itself.</p>
+    <p>The resulting architecture serves as more than a reporting engine. With historical conversion paths modeled into clean Fact tables, the data science layer can run lead-scoring backtests-quantifying exactly which campaign dimensions led to retention versus churn-and feed those explicit scores back into the warehouse. When analytics are fundamentally unified in the warehouse layer, growth ceases to be an argument over spreadsheet mechanics and becomes an argument about the business itself.</p>
 
   </div>
 
